@@ -4,24 +4,44 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 249, 247, 247;
+  --background-end-rgb: 219, 226, 239;
+  --text: 232, 149, 144;
+  --special-text: 17, 45, 78;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 249, 247, 247;
+    --background-end-rgb: 219, 226, 239;
+    --text: 232, 149, 144;
+    --special-text: 17, 45, 78;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--text));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.text-normal {
+  color: rgb(var(--text));
+}
+
+.text-special {
+  color: rgb(var(--special-text));
+}
+
+.button-background:hover{
+  background-color: rgb(var(--special-text));
+}
+
+.button-background{
+  background-color: rgb(var(--text));
 }

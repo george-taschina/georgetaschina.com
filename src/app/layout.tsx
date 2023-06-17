@@ -1,4 +1,12 @@
 import './globals.css'
+import Navbar from './Navbar';
+import { Archivo } from 'next/font/google'
+
+
+const archivo = Archivo({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={archivo.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }

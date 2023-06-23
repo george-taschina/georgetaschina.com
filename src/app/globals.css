@@ -45,3 +45,11 @@ body {
 .button-background{
   background-color: rgb(var(--text));
 }
+
+.bg-special {
+  background-color: rgb(var(--special-text));
+}
+
+.bg-primary {
+  background-color: rgb(var(--text));
+}

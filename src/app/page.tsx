@@ -1,6 +1,7 @@
 import MainTitle from './MainTitle'
 import Brands from './Brands'
 import Projects from './Projects'
+import Footer from './Footer'
 
 const Home =() => {
   return (
@@ -8,6 +9,7 @@ const Home =() => {
         <MainTitle/>
         <Brands/>
         <Projects/>
+        <Footer/>
     </main>
   )
 }

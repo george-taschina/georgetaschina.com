@@ -22,12 +22,7 @@
 
 body {
   color: rgb(var(--text));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb));
 }
 
 .text-normal {
@@ -40,10 +35,11 @@ body {
 
 .button-background:hover{
   background-color: rgb(var(--special-text));
+  color: rgb(var(--background-start-rgb));
 }
 
 .button-background{
-  background-color: rgb(var(--text));
+  background-color: white;
 }
 
 .bg-special {
@@ -52,4 +48,8 @@ body {
 
 .bg-primary {
   background-color: rgb(var(--text));
+}
+
+.fill-background {
+  fill: rgb(var(--background-start-rgb));
 }

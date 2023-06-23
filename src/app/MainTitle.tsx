@@ -23,7 +23,7 @@ const MainTitle = () => {
                 <h1 className="text-2xl md:text-7xl font-bold text-special">Transforming Ideas Into Reality</h1>
                 <h4 className="mt-2 md:mt-9 text-md md:text-xl text-special">Building Robust & Scalable Web Solutions Tailored for YOU.</h4>
                 <div className="mt-5 md:mt-10">
-                  <a href="#contact" className="button-background text-white font-bold py-3 px-10 rounded-full shadow-lg uppercase tracking-wider transition-all ease-in-out delay-150 duration-500">Contact Me</a>
+                  <a href="#contact" className="button-background font-bold py-3 px-10 rounded-full shadow-lg uppercase tracking-wider transition-all ease-in-out delay-150 duration-500">Contact Me</a>
                 </div>
               </div>
             </div>

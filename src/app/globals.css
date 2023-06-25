@@ -53,3 +53,18 @@ body {
 .fill-background {
   fill: rgb(var(--background-start-rgb));
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("/rivelo-project-big.jpeg");
+
+  /* Set a specific height */
+  height: 50vh; /* Half the height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

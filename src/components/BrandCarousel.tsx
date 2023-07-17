@@ -54,7 +54,7 @@ const BrandCarousel: React.FC<BrandCarouselProps> = ({ items, className }) => {
     <div className={className}>
       <Slider {...settings}>
         {items.map((item, idx) => (
-          <div key={idx} className="p-4 flex items-center justify-center">
+          <div key={idx} className="py-4 flex items-center justify-center">
             <img src={item.src} alt={item.alt} className="w-52 mx-auto" />
           </div>
         ))}

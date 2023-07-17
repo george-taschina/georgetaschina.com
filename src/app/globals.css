@@ -60,7 +60,7 @@ body {
 
   /* Set a specific height */
   height: 50vh; /* Half the height of the viewport */
-  width: 100vw; /* Full width of the viewport */
+  width: 100%; /* Full width of the viewport */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

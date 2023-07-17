@@ -23,16 +23,16 @@ const Footer = () => {
                     <div className="px-2 mt-2 md:mt-0">
                         <h2 className="text-2xl font-bold">Projects</h2>
                         <div className="mt-2">
-                            <Link href="/progetti/1">
+                            <Link href="/rivelo">
                                 <p className="hover:text-gray-300">Rivelo Platform</p>
                             </Link>
-                            <Link href="/progetti/1">
+                            <Link href="/wifi">
                                 <p className="hover:text-gray-300">Wifi Italia</p>
                             </Link>
-                            <Link href="/progetti/1">
+                            <Link href="/redabissi">
                                 <p className="hover:text-gray-300">RedAbissi Platform</p>
                             </Link>
-                            <Link href="/progetti/1">
+                            <Link href="/bikerface">
                                 <p className="hover:text-gray-300">Bikerface</p>
                             </Link>
                         </div>
@@ -40,11 +40,8 @@ const Footer = () => {
                     <div className="px-2 mt-2 md:mt-0">
                     <h2 className="text-2xl font-bold">My Socials</h2>
                         <div className="mt-2">
-                            <Link href="/progetti/1">
+                            <Link href="https://www.linkedin.com/in/george-cosmin-taschina/">
                                 <p className="hover:text-gray-300">LinkedIn</p>
-                            </Link>
-                            <Link href="/progetti/1">
-                                <p className="hover:text-gray-300">Instagram</p>
                             </Link>
                         </div>
                     </div>

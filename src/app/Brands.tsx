@@ -20,9 +20,9 @@ const Brands = () => {
 
     return (
         <div>
-        <div className="container mx-auto flex justify-center">
-            <h1 className="text-xl md:text-3xl font-bold text-special text-center">Your Digital Future, Constructed Today: <br/>High-level Full Stack Development and Cloud Architecture</h1>
-        </div>
+            <div className="container mx-auto flex justify-center">
+                <h1 className="text-xl md:text-3xl font-bold text-special text-center">Your Digital Future, Constructed Today: <br/>High-level Full Stack Development and Cloud Architecture</h1>
+            </div>
             <BrandCarousel items={brands} className={"my-7"}/>
         </div>
     );

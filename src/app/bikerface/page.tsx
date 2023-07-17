@@ -35,18 +35,18 @@ const Home = () => {
                           Building BikerFace – An Exercise in Adapting and Overcoming
                         </div>
                         <div className="order-2 px-2 flex flex-col justify-center items-center text-right text-white border-r-4 ">
-                        Given the task to build BikerFace's web application from the ground up, I encountered one of my first challenges: the client's request to use legacy technologies. Despite the familiarity and comfort offered by newer technologies, I recognized the client's requirement as an opportunity to expand my technical prowess. Thus, I dived into the older technologies and successfully created a reliable and robust platform that perfectly fulfilled the client's needs.      
+                        Given the task to build BikerFace&apos;s web application from the ground up, I encountered one of my first challenges: the client&apos;s request to use legacy technologies. Despite the familiarity and comfort offered by newer technologies, I recognized the client&apos;s requirement as an opportunity to expand my technical prowess. Thus, I dived into the older technologies and successfully created a reliable and robust platform that perfectly fulfilled the client&apos;s needs.      
                         </div>
                         <div className="order-4 md:order-3 px-2 flex flex-col justify-center items-center text-left text-white border-l-4 ">
                         Although working with legacy technologies posed some initial hurdles, it also offered a unique set of advantages. These older technologies have stood the test of time, offering proven reliability and stability. Their utilization also provided a valuable learning experience, enhancing my skills and broadening my horizons as a developer.
-                        During the development process, I faced the challenge of ensuring an optimal user experience for both freelance delivery personnel and bike owners. With careful consideration of both parties' needs, I incorporated features that made it easy for them to connect, negotiate, and finalize transactions seamlessly.
+                        During the development process, I faced the challenge of ensuring an optimal user experience for both freelance delivery personnel and bike owners. With careful consideration of both parties&apos; needs, I incorporated features that made it easy for them to connect, negotiate, and finalize transactions seamlessly.
                         </div>
                         <div className="order-3 md:order-4 px-2 flex flex-col justify-center items-center text-center text-white font-bold text-3xl">
                         Making Use of Legacy Technologies – A Test of Skill and Adaptability
                         </div>
                     </div>
                     <div className="md:h-screen  flex justify-center items-center text-center  font-bold text-3xl p-8">
-                      The journey of building BikerFace's web application from scratch, using legacy technologies, and considering user experience intricacies, has been immensely enriching. By navigating these diverse challenges, I have been instrumental in transforming BikerFace into an efficient, user-friendly, and game-changing platform in the motorcycle transport industry. This endeavor stands as a testament to our commitment to deliver excellence and constantly evolve in the rapidly changing technological landscape.                    </div>
+                      The journey of building BikerFace&apos;s web application from scratch, using legacy technologies, and considering user experience intricacies, has been immensely enriching. By navigating these diverse challenges, I have been instrumental in transforming BikerFace into an efficient, user-friendly, and game-changing platform in the motorcycle transport industry. This endeavor stands as a testament to our commitment to deliver excellence and constantly evolve in the rapidly changing technological landscape.                    </div>
                 </div>
             </div>
             <Projects />

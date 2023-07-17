@@ -24,10 +24,10 @@ const Home = () => {
     };
 
     const brands: CarouselItem[] = [
-        { src: '/react.png', alt: 'React' },
-        { src: '/github.png', alt: 'Github' },
-        { src: '/apple-developer.png', alt: 'Apple Developer' },
-    ];
+      { src: '/react.png', alt: 'React' },
+      { src: '/github.png', alt: 'Github' },
+      { src: '/apple-developer.png', alt: 'Apple Developer' },
+  ];
 
     return (
         <main>
@@ -48,7 +48,7 @@ const Home = () => {
                         </div>
                         <div className="order-2 px-2 flex flex-col justify-center items-center text-right text-white border-r-4 ">
                           As the main developer for the frontend of our react native application, I recognized the critical role of seamless user interfaces in mobile applications. These independently developed, cross-platform modules facilitated more consistent updates, mitigated the risk of system-wide failures, and thereby improved the overall performance of our application.
-                          Perhaps one of my most crucial undertakings was the successful troubleshooting of a critical issue that put the project at risk: the app didn't build anymore due to the release of a new iOS version. Through meticulous debugging and problem-solving, I managed to resolve the issue, ensuring uninterrupted service to our end-users and keeping the project timeline on track.                        
+                          Perhaps one of my most crucial undertakings was the successful troubleshooting of a critical issue that put the project at risk: the app didn&apos;t build anymore due to the release of a new iOS version. Through meticulous debugging and problem-solving, I managed to resolve the issue, ensuring uninterrupted service to our end-users and keeping the project timeline on track.                        
                         </div>
                         <div className="order-4 md:order-3 px-2 flex flex-col justify-center items-center text-left text-white border-l-4 ">
                             With a focus on continually enhancing our application performance, I integrated modern technologies and methodologies into our development process. These changes not only contributed to quicker execution times and improved data processing capabilities but also provided a more engaging and responsive user experience.
@@ -59,7 +59,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="md:h-screen  flex justify-center items-center text-center  font-bold text-3xl p-8">
-                    My journey at WifiItalia has been a rewarding experience of innovation and growth. By driving changes across different aspects of our mobile application development, I've helped mold WifiItalia into an efficient, user-centric, and secure platform. These endeavors exemplify our commitment to excellence and continuous evolution in the ever-dynamic realm of mobile technology.
+                    My journey at WifiItalia has been a rewarding experience of innovation and growth. By driving changes across different aspects of our mobile application development, I&apos;ve helped mold WifiItalia into an efficient, user-centric, and secure platform. These endeavors exemplify our commitment to excellence and continuous evolution in the ever-dynamic realm of mobile technology.
                     </div>
                 </div>
             </div>

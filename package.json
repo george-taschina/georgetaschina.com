@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
@@ -26,5 +26,8 @@
     "tsparticles": "^2.9.3",
     "tsparticles-engine": "^2.9.3",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.10"
   }
 }

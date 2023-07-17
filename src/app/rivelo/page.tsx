@@ -35,7 +35,7 @@ const Home = () => {
 
     return (
         <main>
-            <CompanyTitle title="Rivelo Platform" firstDescription="Revolutionizing the Digital Landscape: My Journey with Rivelo Platform" secondDescription="Throughout my time at Rivelo, I've undertaken several vital projects that have significantly contributed to the overall performance, security, and efficiency of our digital environment. Let's delve deeper into the specifics of my role and the impact of my contributions." />
+            <CompanyTitle title="Rivelo Platform" firstDescription="Revolutionizing the Digital Landscape: My Journey with Rivelo Platform" secondDescription="Throughout my time at Rivelo, I&apos;ve undertaken several vital projects that have significantly contributed to the overall performance, security, and efficiency of our digital environment. Let&apos;s delve deeper into the specifics of my role and the impact of my contributions." />
             <BrandCarousel items={brands} className={"my-7"}/>
             <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
                 <img src="/platform-rivelo.png" className="w-auto mx-auto" alt="Rivelo Project"/>
@@ -54,7 +54,7 @@ const Home = () => {
                             Recognizing the need for increased scalability and resiliency in our applications, I embarked on the creation of new microservices. These isolated, independently deployable modules played an instrumental role in enabling more frequent updates, minimizing the risk of system-wide failures, and thereby boosting the overall efficiency of our platform.
                         </div>
                         <div className="order-4 md:order-3 px-2 flex flex-col justify-center items-center text-left text-white border-l-4 ">
-                            Perhaps one of the most pivotal undertakings was the migration of our on-premises software to Google Cloud Platform (GCP). This transition wasn't just about shifting to the cloud—it was about embracing the future. Through careful planning and execution, we successfully migrated our software to GCP, ensuring higher availability, improved flexibility, and optimized costs.                       
+                            Perhaps one of the most pivotal undertakings was the migration of our on-premises software to Google Cloud Platform (GCP). This transition wasn&apos;t just about shifting to the cloud—it was about embracing the future. Through careful planning and execution, we successfully migrated our software to GCP, ensuring higher availability, improved flexibility, and optimized costs.                       
                         </div>
                         <div className="order-3 md:order-4 px-2 flex flex-col justify-center items-center text-center text-white font-bold text-3xl">
                             Seamless Migration to Google Cloud Platform
@@ -63,7 +63,7 @@ const Home = () => {
                             Introducing Performance-Enhancing Technologies                        
                         </div>
                         <div className="order-6 px-2 flex flex-col justify-center items-center text-right text-white border-r-4 ">
-                            With an eye on continually improving our system performance, I introduced new technologies to our tech stack. These upgrades contributed to faster execution times, enhanced data processing capabilities, and overall better performance, strengthening our platform's capability to handle growing business needs.
+                            With an eye on continually improving our system performance, I introduced new technologies to our tech stack. These upgrades contributed to faster execution times, enhanced data processing capabilities, and overall better performance, strengthening our platform&apos;s capability to handle growing business needs.
                         </div>
                         <div className="order-8 md:order-7 px-2 flex flex-col justify-center items-center text-left text-white border-l-4 ">
                             The cornerstone of effective software development lies in short deployment cycles and robust security measures. By reengineering our deployment processes and introducing advanced security measures, I was able to reduce the time-to-market of our services. Additionally, the reinforced workflow offered a more secure environment, safeguarding our platform against potential threats and ensuring data integrity.
@@ -73,7 +73,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="md:h-screen  flex justify-center items-center text-center  font-bold text-3xl p-8">
-                        My tenure at Rivelo has been a fulfilling journey of growth and innovation. By implementing changes across different facets of our digital operations, I've helped transform Rivelo into a more efficient, scalable, and secure platform. These endeavors serve as a testament to our commitment to delivering excellence and continually evolving in the fast-paced realm of technology.
+                        My tenure at Rivelo has been a fulfilling journey of growth and innovation. By implementing changes across different facets of our digital operations, I&apos;ve helped transform Rivelo into a more efficient, scalable, and secure platform. These endeavors serve as a testament to our commitment to delivering excellence and continually evolving in the fast-paced realm of technology.
                     </div>
                 </div>
             </div>

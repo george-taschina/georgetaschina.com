@@ -32,7 +32,7 @@ const Home = () => {
 
     return (
         <main>
-            <CompanyTitle title="RedAbissi Platform" firstDescription="A Paradigm Shift in Social Media Management: My Experience with RedAbissi's RedHab Platform" secondDescription="Throughout my tenure at RedAbissi, I've been a part of several pivotal initiatives that significantly enhanced our platform's functionality, efficiency, and security, contributing to a holistic digital transformation. Allow me to unfold the story of my journey, detailing my role and the value of my contributions." />
+            <CompanyTitle title="RedAbissi Platform" firstDescription="A Paradigm Shift in Social Media Management: My Experience with RedAbissi&apos;s RedHab Platform" secondDescription="Throughout my tenure at RedAbissi, I&apos;ve been a part of several pivotal initiatives that significantly enhanced our platform&apos;s functionality, efficiency, and security, contributing to a holistic digital transformation. Allow me to unfold the story of my journey, detailing my role and the value of my contributions." />
             <BrandCarousel items={brands} className={"my-7"}/>
             <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
                 <img src="/redabissi-project.png" className="w-auto mx-auto" alt="RedAbissi Project"/>
@@ -54,7 +54,7 @@ const Home = () => {
                             Leveraging Vue.js for a User-friendly Interface                       
                         </div>
                         <div className="order-3 px-2 flex flex-col justify-center items-center text-left text-white border-l-4 ">
-                            With a focus on continuous system enhancement, I introduced Vue.js to our frontend development. This decision led to faster load times, improved user interactivity, and an overall increase in performance. As a result, we solidified our platform's capability to meet the evolving needs of our customers.
+                            With a focus on continuous system enhancement, I introduced Vue.js to our frontend development. This decision led to faster load times, improved user interactivity, and an overall increase in performance. As a result, we solidified our platform&apos;s capability to meet the evolving needs of our customers.
                         </div>
                         <div className="order-6 px-2 flex flex-col justify-center items-center text-right text-white border-r-4 ">
                             The cornerstone of productive software development is a blend of rapid deployment cycles and rigorous security protocols. By reengineering our deployment process and bolstering our security measures, we significantly shortened our time-to-market. Additionally, these new workflows provided a secure environment, fortifying our platform against potential security breaches while ensuring data integrity.
@@ -64,7 +64,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="md:h-screen mt-32 md:mt-0 flex justify-center items-center text-center  font-bold text-3xl p-8">
-                      Reflecting on my time at RedAbissi, it has been a rewarding journey of growth and technical innovation. By instigating changes across various facets of our operations, I've played a role in transforming RedHab into a more efficient, resilient, and secure platform. These efforts underscore our unwavering commitment to excellence and our quest to continually adapt in the rapidly evolving technology landscape.
+                      Reflecting on my time at RedAbissi, it has been a rewarding journey of growth and technical innovation. By instigating changes across various facets of our operations, I&apos;ve played a role in transforming RedHab into a more efficient, resilient, and secure platform. These efforts underscore our unwavering commitment to excellence and our quest to continually adapt in the rapidly evolving technology landscape.
                     </div>
                 </div>
             </div>

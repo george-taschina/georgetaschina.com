@@ -14,8 +14,8 @@ const ContactMe = () => {
                     <img src="/contact-me.webp" alt="logo" className="w-auto" />
                 </div>
                 <div className="px-2 py-5 flex flex-col justify-center items-center text-center text-white">
-                    <h2 className="text-5xl md:text-6xl font-bold ">Let's Make something great together.</h2>
-                    <p className="text-2xl  mt-10">Whether it’s a new venture or existing brand.</p>
+                    <h2 className="text-5xl md:text-6xl font-bold ">Let&apos;s Make something great together.</h2>
+                    <p className="text-2xl  mt-10">Whether it&apos;s a new venture or existing brand.</p>
                 </div>
             </div>
         </div>

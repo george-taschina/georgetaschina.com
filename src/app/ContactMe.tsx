@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const ContactMe = () => {
 
@@ -11,7 +12,7 @@ const ContactMe = () => {
             </div>
             <div className="grid md:grid-cols-2 ">
                 <div className="flex flex-col justify-center items-center text-center">
-                    <img src="/contact-me.webp" alt="logo" className="w-auto" />
+                    <Image src="/contact-me.webp" alt="contact me" width={1000} height={800} className="w-auto" />
                 </div>
                 <div className="px-2 py-5 flex flex-col justify-center items-center text-center text-white">
                     <h2 className="text-5xl md:text-6xl font-bold ">Let&apos;s Make something great together.</h2>

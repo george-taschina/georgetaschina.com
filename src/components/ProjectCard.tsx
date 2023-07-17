@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 type ProjectItem = {
   src: string;
@@ -22,7 +23,7 @@ const ProjectCard: React.FC<ProjectProps> = ({ item, className }) => {
           <div className={className + " transition-transform duration-500 ease-in-out transform md:hover:scale-110"}>
               <div className="flex flex-col justify-center w-auto">
                   <div className="relative">
-                    <img src={item.src} alt={item.alt} className="w-100 rounded-lg " />
+                    <Image src={item.src} alt={item.alt} height={900} width={900} className="w-100 rounded-lg " />
                     <p className="absolute bottom-0 left-0 bg-white bg-opacity-50 text-sm text-black p-1 rounded-bl-lg">
                       {item.imageMerit}
                     </p>

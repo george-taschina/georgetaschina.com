@@ -6,6 +6,7 @@ import CompanyTitle from "@/components/CompanyTitle";
 import Projects from "../Projects";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
+import Image from "next/image";
 
 const Home = () => {
     const [isMounted, setIsMounted] = useState(false);
@@ -34,7 +35,7 @@ const Home = () => {
             <CompanyTitle title="Wifi Italia" firstDescription="Redefining Mobile Applications: My Experience at WifiItalia" secondDescription="During my tenure at WifiItalia, I have had the opportunity to spearhead significant projects that contributed to the efficiency, user experience, and robustness of our mobile applications. I invite you to join me as I delve deeper into the specifics of my role and the impact of my contributions." />
             <BrandCarousel items={brands} className={"my-7"}/>
             <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
-                <img src="/wifi-project.png" className="w-1/2 mx-auto" alt="WiFi Italia Project"/>
+                <Image  src="/wifi-project.png" height={900} width={900} className="w-1/2 mx-auto" alt="WiFi Italia Project"/>
             </div>
             <div className="bg-neutral-900">
                 <div className="w-full text-black mt-8 | xl:mt-12">

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const MainTitle = () => {
     const [isMounted, setIsMounted] = useState(false);
@@ -25,10 +26,10 @@ const MainTitle = () => {
               </div>
             </div>
             <div className="md:block hidden sm:order-1 order-2">
-              <img src="/main_title.webp" alt="hero" id="main_image" className={opacity ? "opacity-100 transition-all ease-in duration-700 absolute right-0 top-0 z-10	" : "opacity-0 mt-5 transition-all ease-in duration-700 absolute right-0 top-0 z-10	"}  style={{height: "130%"}}/>
+              <Image src="/main_title.webp" alt="hero" id="main_image" width={900} height={900} className={opacity ? "opacity-100 transition-all ease-in duration-700 absolute right-0 top-0 z-10	" : "opacity-0 mt-5 transition-all ease-in duration-700 absolute right-0 top-0 z-10	"}  style={{height: "130%"}}/>
             </div>
             <div className="md:hidden block sm:order-2 order-1">
-              <img src="/main_title_responsive.webp" alt="hero" id="main_image" className={opacity ? "opacity-100 w-full transition-all ease-in duration-700" : "opacity-0 mt-5 w-full transition-all ease-in duration-700"} />
+              <Image src="/main_title_responsive.webp" alt="hero" id="main_image" width={900} height={900} className={opacity ? "opacity-100 w-full transition-all ease-in duration-700" : "opacity-0 mt-5 w-full transition-all ease-in duration-700"} />
              </div>
           </div>
       </div>

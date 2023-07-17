@@ -6,6 +6,7 @@ import CompanyTitle from "@/components/CompanyTitle";
 import Projects from "../Projects";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
+import Image from "next/image";
 
 const Home = () => {
     const [isMounted, setIsMounted] = useState(false);
@@ -38,7 +39,7 @@ const Home = () => {
             <CompanyTitle title="Rivelo Platform" firstDescription="Revolutionizing the Digital Landscape: My Journey with Rivelo Platform" secondDescription="Throughout my time at Rivelo, I&apos;ve undertaken several vital projects that have significantly contributed to the overall performance, security, and efficiency of our digital environment. Let&apos;s delve deeper into the specifics of my role and the impact of my contributions." />
             <BrandCarousel items={brands} className={"my-7"}/>
             <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
-                <img src="/platform-rivelo.png" className="w-auto mx-auto" alt="Rivelo Project"/>
+                <Image src="/platform-rivelo.png" height={900} width={900} className="w-auto mx-auto" alt="Rivelo Project"/>
             </div>
             <div className="bg-neutral-900">
                 <div className="w-full text-black mt-8 | xl:mt-12">

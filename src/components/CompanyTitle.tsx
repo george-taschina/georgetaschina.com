@@ -15,8 +15,8 @@ const CompanyTitle: FunctionComponent<{title: String, firstDescription: String, 
     }, []);
 
     return (
-        <div className="h-screen">
-            <div className="parallax"></div>
+        <div className="md:h-screen mt-5 md:mt-0">
+            <div className="parallax md:block hidden"></div>
             <div className={opacity ? "opacity-100 transition-all ease-in duration-700 grid gridl-cols-1 md:grid-cols-2 gap-4 h-1/2" : "opacity-0 mt-5 transition-all ease-in duration-700 grid grid-cols-2 gap-4 h-1/2"}>
                 <div className="flex justify-center items-center">                
                     <h1 className="text-2xl md:text-5xl font-bold text-special">{props.title}</h1>

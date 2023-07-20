@@ -8,7 +8,7 @@ const Navbar = () => {
     const textColor = isOpen ? 'text-gray-800' : 'text-normal';
 
     return (
-        <nav className={`absolute ${isOpen ? 'bg-white h-full' : ''} w-full grid grid-cols-2 md:grid-cols-3 transition-colors flex justify-between flex-wrap p-2 lg:p-6 `}>
+        <nav className={`md:absolute ${isOpen ? 'bg-white h-full' : ''} w-full grid grid-cols-2 md:grid-cols-3 transition-colors flex justify-between flex-wrap p-2 lg:p-6 `}>
           <div className={textColor + " flex  flex-shrink-0 mr-6"}>
             <Link href="/" className="font-semibold text-xl tracking-tight">george_taschina.dev</Link>
           </div>

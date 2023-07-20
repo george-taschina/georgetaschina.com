@@ -23,7 +23,7 @@ const Home = () => {
         <main>
             <CompanyTitle title="Bikerface" firstDescription="Revolutionizing Motorcycle Transport: My Adventure with BikerFace" secondDescription="My journey with BikerFace allowed me to play a crucial role in redefining how motorcycles are transported. As the primary developer for our web application, I was responsible for crafting an intuitive platform that seamlessly connects freelance delivery personnel with bike owners. This article provides a deep dive into my responsibilities and the impact of my contributions." />
             <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
-                <Image src="/bikerface-project.png" height={900} width={900} className="w-auto mx-auto" alt="Bikerface Project"/>
+                <Image priority src="/bikerface-project.png" height={900} width={900} className="w-auto mx-auto" alt="Bikerface Project"/>
             </div>
             <div className="bg-neutral-900">
                 <div className="w-full text-black mt-8 | xl:mt-12">

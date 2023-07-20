@@ -36,7 +36,7 @@ const Home = () => {
             <CompanyTitle title="RedAbissi Platform" firstDescription="A Paradigm Shift in Social Media Management: My Experience with RedAbissi&apos;s RedHab Platform" secondDescription="Throughout my tenure at RedAbissi, I&apos;ve been a part of several pivotal initiatives that significantly enhanced our platform&apos;s functionality, efficiency, and security, contributing to a holistic digital transformation. Allow me to unfold the story of my journey, detailing my role and the value of my contributions." />
             <BrandCarousel items={brands} className={"my-7"}/>
             <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
-                <Image src="/redabissi-project.png" height={900} width={900} className="w-auto mx-auto" alt="RedAbissi Project"/>
+                <Image priority src="/redabissi-project.png" height={900} width={900} className="w-auto mx-auto" alt="RedAbissi Project"/>
             </div>
             <div className="bg-neutral-900">
                 <div className="w-full text-black mt-8 | xl:mt-12">

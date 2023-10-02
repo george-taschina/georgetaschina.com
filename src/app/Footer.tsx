@@ -23,8 +23,8 @@ const Footer = () => {
                     <div className="px-2 mt-2 md:mt-0">
                         <h2 className="text-2xl font-bold">Projects</h2>
                         <div className="mt-2">
-                            <Link href="/rivelo">
-                                <p className="hover:text-gray-300">Rivelo Platform</p>
+                            <Link href="/envelor">
+                                <p className="hover:text-gray-300">Envelor Platform</p>
                             </Link>
                             <Link href="/wifi">
                                 <p className="hover:text-gray-300">Wifi Italia</p>

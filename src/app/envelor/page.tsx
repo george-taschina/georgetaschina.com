@@ -36,11 +36,9 @@ const Home = () => {
 
     return (
         <main>
-            <CompanyTitle title="Rivelo Platform" firstDescription="Revolutionizing the Digital Landscape: My Journey with Rivelo Platform" secondDescription="Throughout my time at Rivelo, I&apos;ve undertaken several vital projects that have significantly contributed to the overall performance, security, and efficiency of our digital environment. Let&apos;s delve deeper into the specifics of my role and the impact of my contributions." />
+            <CompanyTitle title="Envelor Platform" firstDescription="Revolutionizing the Digital Landscape: My Journey with Envelor Platform" secondDescription="Throughout my time at Envelor, I&apos;ve undertaken several vital projects that have significantly contributed to the overall performance, security, and efficiency of our digital environment. Let&apos;s delve deeper into the specifics of my role and the impact of my contributions." />
             <BrandCarousel items={brands} className={"my-7"}/>
-            <div className="mt-16 md:mt-64 flex justify-center items-center container mx-auto">
-                <Image priority src="/platform-rivelo.png" height={900} width={900} className="w-auto mx-auto" alt="Rivelo Project"/>
-            </div>
+            
             <div className="bg-neutral-900">
                 <div className="w-full text-black mt-8 | xl:mt-12">
                     <svg className="w-full fill-background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 162"><path d="M1600 0v113.868c-91.328-1.407-173.577 60.877-297.907 45.57-124.33-15.308-103.654-33.11-207.373-63.606-69.147-20.33-143.387-20.33-222.72 0-56.554 17.89-114.692 23.901-174.415 18.036-89.585-8.798-84.69-15.89-199.92-48.532-89.414-25.328-211.396-25.328-247.427-27.283-68.21-3.7-151.622 9.683-250.238 40.15V0h1600z"></path>
@@ -74,7 +72,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="md:h-screen  flex justify-center items-center text-center  font-bold text-3xl p-8">
-                        My tenure at Rivelo has been a fulfilling journey of growth and innovation. By implementing changes across different facets of our digital operations, I&apos;ve helped transform Rivelo into a more efficient, scalable, and secure platform. These endeavors serve as a testament to our commitment to delivering excellence and continually evolving in the fast-paced realm of technology.
+                        My tenure at Envelor has been a fulfilling journey of growth and innovation. By implementing changes across different facets of our digital operations, I&apos;ve helped transform Envelor into a more efficient, scalable, and secure platform. These endeavors serve as a testament to our commitment to delivering excellence and continually evolving in the fast-paced realm of technology.
                     </div>
                 </div>
             </div>

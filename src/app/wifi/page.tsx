@@ -28,7 +28,7 @@ const Home = () => {
       { src: '/react.png', alt: 'React' },
       { src: '/github.png', alt: 'Github' },
       { src: '/apple-developer.png', alt: 'Apple Developer' },
-  ];
+    ];
 
     return (
         <main>

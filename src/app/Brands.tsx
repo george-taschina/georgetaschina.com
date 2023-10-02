@@ -10,7 +10,7 @@ const Brands = () => {
     };
 
     const brands: CarouselItem[] = [
-        { src: '/rivelo.png', alt: 'Rivelo' },
+        { src: '/envelor.png', alt: 'Envelor' },
         { src: '/b4web.png', alt: 'B4web' },
         { src: '/ideaencode.png', alt: 'IdeaEncode' },
         { src: '/redabissi.png', alt: 'RedAbissi' },

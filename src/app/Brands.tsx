@@ -14,7 +14,7 @@ const Brands = () => {
     { src: "/ideaencode.png", alt: "IdeaEncode" },
     { src: "/redabissi.png", alt: "RedAbissi" },
     { src: "/nextar.png", alt: "Nextar" },
-    { src: "/wezard.svg", alt: "Wezard" },
+    { src: "/wezard.png", alt: "Wezard" },
   ];
 
   return (

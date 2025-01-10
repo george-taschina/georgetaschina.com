@@ -14,6 +14,14 @@ type ProjectItem = {
 const Projects = () => {
   const projects: ProjectItem[] = [
     {
+      src: "/facile.jpg",
+      alt: "Facile.it Partner",
+      title: "Facile.it Partner",
+      description: "Facile.it Partner is a SaaS service for insurance brokers.",
+      link: "/facile",
+      imageMerit: "Photo by Facile.it",
+    },
+    {
       src: "/envelor-project.jpeg",
       alt: "Rivelo Platform",
       title: "Rivelo Platform",

@@ -15,6 +15,7 @@ const Brands = () => {
     { src: "/redabissi.png", alt: "RedAbissi" },
     { src: "/nextar.png", alt: "Nextar" },
     { src: "/wezard.png", alt: "Wezard" },
+    { src: "/facile.png", alt: "Facile.it" },
   ];
 
   return (
